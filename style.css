@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap");
+
+body {
+  font-family: "Gelasio", serif;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+/*-------HEADER STYLING-------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 227, 222);
+  color: rgb(85, 73, 56);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+
+/* .navigation li {
+  margin: 0 20px;
+} */
+
+.login-button-search {
+  display: flex;
+  align-items: center;
+}
+
+.login-button-search li {
+  margin: 20px;
+}
+
+header h1 {
+  margin: 0;
+  margin: 20px;
+}
+
+.main-btn {
+  background-color: rgb(85, 73, 56);
+  border: none;
+  color: white;
+  padding: 5px;
+}
+
+.login-button-search li {
+  color: black;
+}
+
+/*-------MAIN STYLING-------*/
+
+.main-and-footer {
+  background-image: url(./images/background.jpg);
+}
+
+.main-section-craving {
+  background-image: url(./images/blueberry.jpg);
+  height: 500px;
+  margin: 0 auto;
+}
+
+.main-section-craving-search {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.main-section-craving-search h1 {
+  font-size: 3em;
+  color: white;
+  padding-bottom: 15ox;
+}
+
+.main-section-craving-search p {
+  background-color: rgba(206, 203, 198, 0.671);
+  padding: 7px;
+}
+
+.main-section-craving-search p input {
+  border: none;
+  background: transparent;
+}
+
+.main-section-craving-search p i {
+  color: rgb(101, 86, 80);
+}
+
+.main-section-party,
+.main-section-cookies {
+  width: 70%;
+  display: flex;
+  background-color: rgb(230, 227, 222);
+  margin: 50px auto;
+}
+
+.main-section-party-image,
+.main-section-cookies-image {
+  width: 600px;
+  height: auto;
+}
+
+.main-section-party-image img,
+.main-section-cookies-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-section-party-info,
+.main-section-cookies-info {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.main-section-party-info h1,
+.main-section-cookies-info h1 {
+  font-size: 2em;
+}
+
+.main-section-cookies-info h3 {
+  font-size: 2.5em;
+}
+
+.recipes-btn {
+  padding: 10 20px;
+  margin-top: 30px;
+}
+
+.main-section-toolbox {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-section-toolbox-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main-section-toolbox-images li {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(230, 227, 222, 0.685);
+}
+
+.main-section-toolbox-images li img {
+  width: 100%;
+  height: 90%;
+}
+
+.main-section-toolbox-heading {
+  background-color: rgb(230, 227, 222, 0.685);
+  display: inline;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+
+.red-btn {
+  background-color: rgba(204, 72, 49, 0.884);
+  border: none;
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  margin: 50px;
+}
+
+/*-----STYLING THE FOOTER*/
+
+footer {
+  background-color: rgba(230, 227, 222, 0.637);
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+footer ul {
+  display: flex;
+  width: 450px;
+  justify-content: space-around;
+}
+
+footer ul li {
+  border-right: 1px solid grey;
+  height: 20px;
+  padding: 0 20px;
+}
+
+footer ul li:last-child {
+  border-right: none;
+}
